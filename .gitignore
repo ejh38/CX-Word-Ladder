@@ -1,0 +1,43 @@
+# Ignore all files and directories inside build/
+build/**
+
+!build/
+!build/bin/
+!build/bin/Release/
+!build/bin/Release/wordladder.exe
+
+# ------------------------------
+# CMake Generated Files
+# ------------------------------
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CTestTestfile.cmake
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ------------------------------
+# Visual Studio Specific Files
+# ------------------------------
+.vs/
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ------------------------------
+# Temporary and Log Files
+# ------------------------------
+*.tmp
+*.temp
+*.log
+
+# ------------------------------
+# Object Files and Binaries (General)
+# ------------------------------
+*.o
+*.obj
+*.dll
+*.pdb
