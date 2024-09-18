@@ -2,8 +2,8 @@
 #define WORD_PARSER_H
 
 #include <string>
-#include <vector>
 #include <unordered_set>
+#include <vector>
 
 class WordParser {
 public:

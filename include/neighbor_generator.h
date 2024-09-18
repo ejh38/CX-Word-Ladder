@@ -2,8 +2,8 @@
 #define NEIGHBOR_GENERATOR_H
 
 #include <string>
-#include <vector>
 #include <unordered_set>
+#include <vector>
 
 class NeighborGenerator {
 public:

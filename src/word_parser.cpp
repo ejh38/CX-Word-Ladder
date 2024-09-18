@@ -1,6 +1,7 @@
 #include "word_parser.h"
-#include <fstream>
+
 #include <algorithm>
+#include <fstream>
 #include <cctype>
 #include <iostream>
 
@@ -34,7 +35,7 @@ const std::unordered_set<std::string>& WordParser::getWordSet() const {
     return wordSet_;
 }
 
-static std::string toUpperCase(const std::string& str) {
+std::string WordParser::toUpperCase(const std::string& str) {
     std::string upperStr = str;
     std::transform(upperStr.begin(), upperStr.end(), upperStr.begin(),
                    [](unsigned char c) { return std::toupper(c); });

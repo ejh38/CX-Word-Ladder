@@ -1,6 +1,7 @@
-#include "../include/word_ladder.h"
-#include <iostream>
+#include "word_ladder.h"
+
 #include <algorithm>
+#include <iostream>
 
 int main(int argc, char* argv[]) {
     if (argc != 4) {

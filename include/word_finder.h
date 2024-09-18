@@ -3,8 +3,8 @@
 #define WORD_FINDER_H
 
 #include <string>
-#include <vector>
 #include <unordered_set>
+#include <vector>
 
 #include "neighbor_generator.h"
 

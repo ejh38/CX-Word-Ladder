@@ -3,8 +3,8 @@
 
 #include <memory>
 #include <string>
-#include <vector>
 #include <unordered_set>
+#include <vector>
 
 #include "neighbor_generator.h"
 #include "word_finder.h"
