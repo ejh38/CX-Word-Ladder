@@ -55,7 +55,7 @@ Before you get started, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/yourusername/CX-Word-Ladder.git
-   cd word-ladder
+   cd CX-Word-Ladder
    ```
 
 2. **If you want to build: Create a Build Directory:**
