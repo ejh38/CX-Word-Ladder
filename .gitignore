@@ -5,6 +5,7 @@ build/**
 !build/bin/
 !build/bin/Release/
 !build/bin/Release/wordladder.exe
+!build/bin/Release/wordladder_tests.exe
 
 # ------------------------------
 # CMake Generated Files
