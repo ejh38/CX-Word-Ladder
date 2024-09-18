@@ -1,7 +1,5 @@
 # Word Ladder
 
-**License:** MIT
-
 ## Table of Contents
 
 - [About](#about)
