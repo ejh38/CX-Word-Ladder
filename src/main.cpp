@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
     std::string endWord = WordParser::toUpperCase(argv[3]);
 
     // Ensure start and end words are of the same length
-    size_t wordLength = startWord.length();
+    auto wordLength = startWord.length();
     if (endWord.length() != wordLength) {
         std::cerr << "Start and end words must be of the same length.\n";
         return 1;

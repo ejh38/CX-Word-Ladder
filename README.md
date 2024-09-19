@@ -100,9 +100,9 @@ You'll need three things to run the program:
 ```
 **Example:**
 
-If you have a word list called `words.txt`:
+If you have use my demo word list called `expected_list.txt`:
 ```bash
-./wordladder ../data/word_list.txt DAMP LIKE
+./wordladder ../data/expected_list.txt DAMP LIKE
 ```
 **What You'll See:**
 Word Ladder: DAMP -> LAMP -> LIMP -> LIME -> LIKE

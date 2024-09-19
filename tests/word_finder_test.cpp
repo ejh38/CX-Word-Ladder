@@ -13,7 +13,7 @@ protected:
     void SetUp() override {
         wordSet = {"DAMP", "LAMP", "LIMP", "LIME", "LIKE", "BARK", "BANK", "HANK", "HANG", "HANI"};
         neighborGenerator = std::make_unique<NeighborGenerator>(wordSet);
-        wordFinder = std::make_unique<WordFinder>(wordSet, neighborGenerator.get());
+        wordFinder = std::make_unique<WordFinder>(wordSet, std::move(neighborGenerator));
     }
 };
 
